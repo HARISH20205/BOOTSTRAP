@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .col {
+            flex: 1;
+            min-width: 250px;
+            max-width: 32%;
+            box-sizing: border-box;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .card-title {
+            font-size: 1.25em;
+            margin: 0 0 10px 0;
+        }
+        .card-text {
+            margin: 0 0 10px 0;
+            color: #666;
+        }
+        .card-footer {
+            padding: 10px 20px;
+            background-color: #f9f9f9;
+            border-top: 1px solid #ddd;
+        }
+        .card-footer a {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .card-footer a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<!-- Image Gallery -->
+<div class="container">
+    <h1>Image Gallery</h1>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="https://picsum.photos/200/300" alt="Card Image">
+          <div class="card-body">
+            <h5 class="card-title">Image 1</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 minutes ago</small></p>
+          </div>
+          <div class="card-footer">
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://picsum.photos/200/301" alt="Card Image">
+          <div class="card-body">
+            <h5 class="card-title">Image 2</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 minutes ago</small></p>
+          </div>
+          <div class="card-footer">
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://picsum.photos/200/302" alt="Card Image">
+          <div class="card-body">
+            <h5 class="card-title">Image 3</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 minutes ago</small></p>
+          </div>
+          <div class="card-footer">
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://picsum.photos/200/303" alt="Card Image">
+          <div class="card-body">
+            <h5 class="card-title">Image 4</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 minutes ago</small></p>
+          </div>
+          <div class="card-footer">
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://picsum.photos/200/304" alt="Card Image">
+          <div class="card-body">
+            <h5 class="card-title">Image 5</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 minutes ago</small></p>
+          </div>
+          <div class="card-footer">
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://picsum.photos/200/305" alt="Card Image">
+          <div class="card-body">
+            <h5 class="card-title">Image 6</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 minutes ago</small></p>
+          </div>
+          <div class="card-footer">
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
